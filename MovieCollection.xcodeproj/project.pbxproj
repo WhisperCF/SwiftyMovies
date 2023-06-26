@@ -11,9 +11,13 @@
 		89621E632829D2FC008BA4BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89621E622829D2FC008BA4BB /* ViewController.swift */; };
 		89621E652829D2FC008BA4BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89621E642829D2FC008BA4BB /* Assets.xcassets */; };
 		89621E682829D2FC008BA4BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89621E662829D2FC008BA4BB /* Main.storyboard */; };
-		89621E732829D2FC008BA4BB /* TestPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89621E722829D2FC008BA4BB /* TestPlayerTests.swift */; };
-		89621E7D2829D2FC008BA4BB /* TestPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89621E7C2829D2FC008BA4BB /* TestPlayerUITests.swift */; };
-		89621E7F2829D2FC008BA4BB /* TestPlayerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89621E7E2829D2FC008BA4BB /* TestPlayerUITestsLaunchTests.swift */; };
+		89621E8C2829D384008BA4BB /* FeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89621E8B2829D384008BA4BB /* FeedLoader.swift */; };
+		89621E8E2829D3A5008BA4BB /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89621E8D2829D3A5008BA4BB /* Feed.swift */; };
+		89621E912829DC59008BA4BB /* CollectionViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89621E8F2829DC59008BA4BB /* CollectionViewItem.swift */; };
+		89621E922829DC59008BA4BB /* CollectionViewItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89621E902829DC59008BA4BB /* CollectionViewItem.xib */; };
+		89621EE6282C38F4008BA4BB /* Poster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89621EE5282C38F4008BA4BB /* Poster.swift */; };
+		8975F40428306FD700CEBD61 /* newFavorite.png in Resources */ = {isa = PBXBuildFile; fileRef = 8975F40328306FD700CEBD61 /* newFavorite.png */; };
+		89CDB1542837F9B7002CA270 /* NetworkCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CDB1532837F9B7002CA270 /* NetworkCall.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,17 +38,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		89621E5D2829D2FC008BA4BB /* TestPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89621E5D2829D2FC008BA4BB /* MovieCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89621E602829D2FC008BA4BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89621E622829D2FC008BA4BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		89621E642829D2FC008BA4BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89621E672829D2FC008BA4BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		89621E692829D2FC008BA4BB /* TestPlayer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TestPlayer.entitlements; sourceTree = "<group>"; };
-		89621E6E2829D2FC008BA4BB /* TestPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		89621E722829D2FC008BA4BB /* TestPlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPlayerTests.swift; sourceTree = "<group>"; };
-		89621E782829D2FC008BA4BB /* TestPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		89621E7C2829D2FC008BA4BB /* TestPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPlayerUITests.swift; sourceTree = "<group>"; };
-		89621E7E2829D2FC008BA4BB /* TestPlayerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPlayerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		89621E692829D2FC008BA4BB /* MovieCollection.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MovieCollection.entitlements; sourceTree = "<group>"; };
+		89621E6E2829D2FC008BA4BB /* MovieCollectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieCollectionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		89621E782829D2FC008BA4BB /* MovieCollectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieCollectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		89621E8B2829D384008BA4BB /* FeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoader.swift; sourceTree = "<group>"; };
+		89621E8D2829D3A5008BA4BB /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
+		89621E8F2829DC59008BA4BB /* CollectionViewItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewItem.swift; sourceTree = "<group>"; };
+		89621E902829DC59008BA4BB /* CollectionViewItem.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewItem.xib; sourceTree = "<group>"; };
+		89621EE5282C38F4008BA4BB /* Poster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poster.swift; sourceTree = "<group>"; };
+		8975F40328306FD700CEBD61 /* newFavorite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newFavorite.png; sourceTree = "<group>"; };
+		89CDB1532837F9B7002CA270 /* NetworkCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkCall.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,9 +83,7 @@
 		89621E542829D2FB008BA4BB = {
 			isa = PBXGroup;
 			children = (
-				89621E5F2829D2FC008BA4BB /* TestPlayer */,
-				89621E712829D2FC008BA4BB /* TestPlayerTests */,
-				89621E7B2829D2FC008BA4BB /* TestPlayerUITests */,
+				89621E5F2829D2FC008BA4BB /* MovieCollection */,
 				89621E5E2829D2FC008BA4BB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,48 +91,38 @@
 		89621E5E2829D2FC008BA4BB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				89621E5D2829D2FC008BA4BB /* TestPlayer.app */,
-				89621E6E2829D2FC008BA4BB /* TestPlayerTests.xctest */,
-				89621E782829D2FC008BA4BB /* TestPlayerUITests.xctest */,
+				89621E5D2829D2FC008BA4BB /* MovieCollection.app */,
+				89621E6E2829D2FC008BA4BB /* MovieCollectionTests.xctest */,
+				89621E782829D2FC008BA4BB /* MovieCollectionUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		89621E5F2829D2FC008BA4BB /* TestPlayer */ = {
+		89621E5F2829D2FC008BA4BB /* MovieCollection */ = {
 			isa = PBXGroup;
 			children = (
 				89621E602829D2FC008BA4BB /* AppDelegate.swift */,
 				89621E622829D2FC008BA4BB /* ViewController.swift */,
+				89621E8B2829D384008BA4BB /* FeedLoader.swift */,
+				89CDB1532837F9B7002CA270 /* NetworkCall.swift */,
+				89621E8D2829D3A5008BA4BB /* Feed.swift */,
+				89621E8F2829DC59008BA4BB /* CollectionViewItem.swift */,
+				89621EE5282C38F4008BA4BB /* Poster.swift */,
 				89621E642829D2FC008BA4BB /* Assets.xcassets */,
+				89621E902829DC59008BA4BB /* CollectionViewItem.xib */,
 				89621E662829D2FC008BA4BB /* Main.storyboard */,
-				89621E692829D2FC008BA4BB /* TestPlayer.entitlements */,
+				89621E692829D2FC008BA4BB /* MovieCollection.entitlements */,
+				8975F40328306FD700CEBD61 /* newFavorite.png */,
 			);
-			path = TestPlayer;
-			sourceTree = "<group>";
-		};
-		89621E712829D2FC008BA4BB /* TestPlayerTests */ = {
-			isa = PBXGroup;
-			children = (
-				89621E722829D2FC008BA4BB /* TestPlayerTests.swift */,
-			);
-			path = TestPlayerTests;
-			sourceTree = "<group>";
-		};
-		89621E7B2829D2FC008BA4BB /* TestPlayerUITests */ = {
-			isa = PBXGroup;
-			children = (
-				89621E7C2829D2FC008BA4BB /* TestPlayerUITests.swift */,
-				89621E7E2829D2FC008BA4BB /* TestPlayerUITestsLaunchTests.swift */,
-			);
-			path = TestPlayerUITests;
+			path = MovieCollection;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		89621E5C2829D2FC008BA4BB /* TestPlayer */ = {
+		89621E5C2829D2FC008BA4BB /* MovieCollection */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 89621E822829D2FC008BA4BB /* Build configuration list for PBXNativeTarget "TestPlayer" */;
+			buildConfigurationList = 89621E822829D2FC008BA4BB /* Build configuration list for PBXNativeTarget "MovieCollection" */;
 			buildPhases = (
 				89621E592829D2FC008BA4BB /* Sources */,
 				89621E5A2829D2FC008BA4BB /* Frameworks */,
@@ -136,14 +132,14 @@
 			);
 			dependencies = (
 			);
-			name = TestPlayer;
+			name = MovieCollection;
 			productName = TestPlayer;
-			productReference = 89621E5D2829D2FC008BA4BB /* TestPlayer.app */;
+			productReference = 89621E5D2829D2FC008BA4BB /* MovieCollection.app */;
 			productType = "com.apple.product-type.application";
 		};
-		89621E6D2829D2FC008BA4BB /* TestPlayerTests */ = {
+		89621E6D2829D2FC008BA4BB /* MovieCollectionTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 89621E852829D2FC008BA4BB /* Build configuration list for PBXNativeTarget "TestPlayerTests" */;
+			buildConfigurationList = 89621E852829D2FC008BA4BB /* Build configuration list for PBXNativeTarget "MovieCollectionTests" */;
 			buildPhases = (
 				89621E6A2829D2FC008BA4BB /* Sources */,
 				89621E6B2829D2FC008BA4BB /* Frameworks */,
@@ -154,14 +150,14 @@
 			dependencies = (
 				89621E702829D2FC008BA4BB /* PBXTargetDependency */,
 			);
-			name = TestPlayerTests;
+			name = MovieCollectionTests;
 			productName = TestPlayerTests;
-			productReference = 89621E6E2829D2FC008BA4BB /* TestPlayerTests.xctest */;
+			productReference = 89621E6E2829D2FC008BA4BB /* MovieCollectionTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		89621E772829D2FC008BA4BB /* TestPlayerUITests */ = {
+		89621E772829D2FC008BA4BB /* MovieCollectionUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 89621E882829D2FC008BA4BB /* Build configuration list for PBXNativeTarget "TestPlayerUITests" */;
+			buildConfigurationList = 89621E882829D2FC008BA4BB /* Build configuration list for PBXNativeTarget "MovieCollectionUITests" */;
 			buildPhases = (
 				89621E742829D2FC008BA4BB /* Sources */,
 				89621E752829D2FC008BA4BB /* Frameworks */,
@@ -172,9 +168,9 @@
 			dependencies = (
 				89621E7A2829D2FC008BA4BB /* PBXTargetDependency */,
 			);
-			name = TestPlayerUITests;
+			name = MovieCollectionUITests;
 			productName = TestPlayerUITests;
-			productReference = 89621E782829D2FC008BA4BB /* TestPlayerUITests.xctest */;
+			productReference = 89621E782829D2FC008BA4BB /* MovieCollectionUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -200,7 +196,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 89621E582829D2FB008BA4BB /* Build configuration list for PBXProject "TestPlayer" */;
+			buildConfigurationList = 89621E582829D2FB008BA4BB /* Build configuration list for PBXProject "MovieCollection" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -213,9 +209,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				89621E5C2829D2FC008BA4BB /* TestPlayer */,
-				89621E6D2829D2FC008BA4BB /* TestPlayerTests */,
-				89621E772829D2FC008BA4BB /* TestPlayerUITests */,
+				89621E5C2829D2FC008BA4BB /* MovieCollection */,
+				89621E6D2829D2FC008BA4BB /* MovieCollectionTests */,
+				89621E772829D2FC008BA4BB /* MovieCollectionUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -225,8 +221,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8975F40428306FD700CEBD61 /* newFavorite.png in Resources */,
 				89621E652829D2FC008BA4BB /* Assets.xcassets in Resources */,
 				89621E682829D2FC008BA4BB /* Main.storyboard in Resources */,
+				89621E922829DC59008BA4BB /* CollectionViewItem.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,8 +249,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89621E8C2829D384008BA4BB /* FeedLoader.swift in Sources */,
+				89621E8E2829D3A5008BA4BB /* Feed.swift in Sources */,
 				89621E632829D2FC008BA4BB /* ViewController.swift in Sources */,
+				89621EE6282C38F4008BA4BB /* Poster.swift in Sources */,
+				89621E912829DC59008BA4BB /* CollectionViewItem.swift in Sources */,
 				89621E612829D2FC008BA4BB /* AppDelegate.swift in Sources */,
+				89CDB1542837F9B7002CA270 /* NetworkCall.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +263,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89621E732829D2FC008BA4BB /* TestPlayerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,8 +270,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89621E7D2829D2FC008BA4BB /* TestPlayerUITests.swift in Sources */,
-				89621E7F2829D2FC008BA4BB /* TestPlayerUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,12 +278,12 @@
 /* Begin PBXTargetDependency section */
 		89621E702829D2FC008BA4BB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 89621E5C2829D2FC008BA4BB /* TestPlayer */;
+			target = 89621E5C2829D2FC008BA4BB /* MovieCollection */;
 			targetProxy = 89621E6F2829D2FC008BA4BB /* PBXContainerItemProxy */;
 		};
 		89621E7A2829D2FC008BA4BB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 89621E5C2829D2FC008BA4BB /* TestPlayer */;
+			target = 89621E5C2829D2FC008BA4BB /* MovieCollection */;
 			targetProxy = 89621E792829D2FC008BA4BB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -418,10 +418,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = TestPlayer/TestPlayer.entitlements;
+				CODE_SIGN_ENTITLEMENTS = MovieCollection/MovieCollection.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = W3BZ66Q856;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -433,7 +433,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.applewriter.TestPlayer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.applewriter.MovieCollection;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -445,10 +445,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = TestPlayer/TestPlayer.entitlements;
+				CODE_SIGN_ENTITLEMENTS = MovieCollection/MovieCollection.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = W3BZ66Q856;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -460,7 +460,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.applewriter.TestPlayer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.applewriter.MovieCollection;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -482,7 +482,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestPlayer.app/Contents/MacOS/TestPlayer";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MovieCollection.app/Contents/MacOS/MovieCollection";
 			};
 			name = Debug;
 		};
@@ -501,7 +501,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestPlayer.app/Contents/MacOS/TestPlayer";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MovieCollection.app/Contents/MacOS/MovieCollection";
 			};
 			name = Release;
 		};
@@ -542,7 +542,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		89621E582829D2FB008BA4BB /* Build configuration list for PBXProject "TestPlayer" */ = {
+		89621E582829D2FB008BA4BB /* Build configuration list for PBXProject "MovieCollection" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				89621E802829D2FC008BA4BB /* Debug */,
@@ -551,7 +551,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		89621E822829D2FC008BA4BB /* Build configuration list for PBXNativeTarget "TestPlayer" */ = {
+		89621E822829D2FC008BA4BB /* Build configuration list for PBXNativeTarget "MovieCollection" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				89621E832829D2FC008BA4BB /* Debug */,
@@ -560,7 +560,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		89621E852829D2FC008BA4BB /* Build configuration list for PBXNativeTarget "TestPlayerTests" */ = {
+		89621E852829D2FC008BA4BB /* Build configuration list for PBXNativeTarget "MovieCollectionTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				89621E862829D2FC008BA4BB /* Debug */,
@@ -569,7 +569,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		89621E882829D2FC008BA4BB /* Build configuration list for PBXNativeTarget "TestPlayerUITests" */ = {
+		89621E882829D2FC008BA4BB /* Build configuration list for PBXNativeTarget "MovieCollectionUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				89621E892829D2FC008BA4BB /* Debug */,
